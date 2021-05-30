@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  transition: all 0.3s linear;
+  background-color: rgb(29, 61, 38);
+  color: rgb(255, 255, 255);
+}
+:root {
+  --sec-color: rgb(0, 253, 0);
+}
+.App {
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.heading {
+  padding: 0.5rem;
+}
+.heading:hover {
+  color: var(--sec-color);
+}
+input {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  width: 80%;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+input:focus {
+  border: 2px solid var(--sec-color);
+}
+input::placeholder {
+  text-align: center;
+}
+.meaning-text {
+  margin: 3rem auto;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+p {
+  margin: 3rem;
+  color: var(--sec-color);
+}
+.knownEmoji {
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.knownEmoji:hover {
+  cursor: pointer;
+}
