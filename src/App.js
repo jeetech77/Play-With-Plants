@@ -17,8 +17,9 @@ export default function App() {
   function inputEventHandler(event) {
     var userInput = event.target.value;
     var emojiMeanning = emojiDictonary[userInput];
+    emojiMeanning=emojiMeanning.replaceAll(" ",'');
     if (emojiMeanning === undefined) {
-      emojiMeanning = "Sorry we don't know this emoji.";
+      emojiMeanning = "Sorry we don't have this emoji in our database.";
     }
     setEmojiMeanning(emojiMeanning);
   }
