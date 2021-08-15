@@ -1,8 +1,7 @@
 # Play-With-Plants
 Do you even know the name of the plant's emojis that appear in your emoji panel, don't worry here you can know the name of all of them.
 
-[Check here live ](https://rxbvu.csb.app/)
-
+[Check here live ](https://hup3t.csb.app/)
 ## How To Use ?
 
 - Enter any plant emoji in the input box.(You can use emojipedia for emojies)
