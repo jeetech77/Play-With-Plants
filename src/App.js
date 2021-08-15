@@ -7,7 +7,12 @@ var emojiDictonary = {
   "🌵": "Cactus",
   "🎋": "Tanabata Tree",
   "🎄": "Christmas Tree",
-  "🎍": "Bamboo"
+  "☘️": "Shamrock",
+  "🎍": "Bamboo",
+  "🏵️": "Rosette",
+  "🌾": "Sheaf of Rice",
+  "🪴": "Potted Plant",
+  "🌱": "Seedling"
 };
 var weKnowTheseEmoji = Object.keys(emojiDictonary);
 export default function App() {
@@ -17,7 +22,6 @@ export default function App() {
   function inputEventHandler(event) {
     var userInput = event.target.value;
     var emojiMeanning = emojiDictonary[userInput];
-    emojiMeanning=emojiMeanning.replaceAll(" ",'');
     if (emojiMeanning === undefined) {
       emojiMeanning = "Sorry we don't have this emoji in our database.";
     }
